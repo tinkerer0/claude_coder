@@ -54,7 +54,7 @@ open index.html   # macOS; 다른 OS는 파일 탐색기/브라우저로 동일 
 ```
 
 게시된 GitHub Pages (소스 `main` 루트, API상 `built`):
-https://aitinkerer0.github.io/claude_coder/
+https://tinkerer0.github.io/claude_coder/
 
 ## 파일 맵
 
