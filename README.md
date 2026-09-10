@@ -1,5 +1,9 @@
 # claude_coder
 
+[포트폴리오](https://github.com/tinkerer0/tinkerer0) · [게임 목록](https://github.com/tinkerer0/tinkerer0/blob/main/docs/GAMES.md)
+
+**분류:** 브라우저 디펜스 · **상태:** 공개 프로토타입
+
 픽셀 아트 버그-디펜스 로그라이트. 바닥의 **Clawd**(테라코타 게)가 5개 레인에서 떨어지는 버그를 막으며 LOC를 쌓는다. 한 판에 무기 1개, 공격은 자동. 죽거나 종료하면 ★로 무기·스탯·테마를 영구 강화하고 다시 출전한다. **5000 LOC = 배포 성공(승리)**.
 
 바닐라 JS + Canvas 단일 `index.html` (픽셀 폰트 Galmuri만 jsDelivr CDN). 형제 스킨: [dino_coder](https://github.com/tinkerer0/dino_coder), [duck_coder](https://github.com/tinkerer0/duck_coder).
