@@ -32,4 +32,4 @@ I am still new to this, so there is a lot to improve. Issues and pull requests w
 
 ## License
 
-게임 코드는 [MIT](LICENSE)입니다. Clawd 캐릭터는 Anthropic의 Claude 마스코트를 픽셀로 따라 그린 것이라 이 라이선스에 포함되지 않습니다. 이 게임은 Anthropic과 관계없는 개인 팬 게임입니다.
+게임 코드는 [MIT](LICENSE)입니다. Clawd 캐릭터 디자인은 Anthropic의 것이라 이 라이선스에 포함되지 않습니다. 이 게임은 Anthropic과 관계없는 개인 팬 게임입니다.
