@@ -1,35 +1,35 @@
 # claude_coder
 
-**떨어지는 버그를 막으며 코드 5000줄을 채우는 픽셀 디펜스 로그라이트.**
+English · [한국어](README.ko.md)
 
-**[▶ 브라우저에서 바로 플레이](https://tinkerer0.github.io/claude_coder/)**
+**A pixel defense roguelike where you block falling bugs to fill 5000 lines of code.**
 
-![플레이 화면](docs/images/gameplay.gif)
+**[▶ Play in the browser](https://tinkerer0.github.io/claude_coder/)**
 
-바닥의 Clawd가 다섯 줄로 떨어지는 버그를 막고, 버틴 만큼 LOC(코드 줄 수)가 쌓입니다. 한 판이 끝나면 모은 ★로 무기 17종과 능력치를 영구 강화하고 다시 도전합니다. 5000 LOC를 채우면 "배포 성공"입니다.
+![Gameplay](docs/images/gameplay.gif)
 
-← → 또는 A / D로 줄을 옮기면 공격은 자동입니다. 1·2·3은 게임 속도, M은 소리, Esc는 이번 판 끝내기입니다. 모바일에서는 화면을 눌러 옮깁니다.
+Clawd at the bottom blocks bugs falling down five lanes, and the LOC (lines of code) count grows for as long as you hold out. When a run ends, you spend the ★ you collected to permanently upgrade 17 weapons and your stats, then try again. Fill 5000 LOC and you get "Deploy Succeeded".
 
-같은 게임의 다른 캐릭터판: [dino_coder](https://github.com/tinkerer0/dino_coder) · [duck_coder](https://github.com/tinkerer0/duck_coder)
+Switch lanes with ← → or A / D, and attacks are automatic. 1, 2, and 3 set the game speed, M toggles sound, and Esc ends the current run. On mobile, tap the screen to move. The in-game text is in Korean.
 
-## 직접 실행
+Other character versions of the same game: [dino_coder](https://github.com/tinkerer0/dino_coder) · [duck_coder](https://github.com/tinkerer0/duck_coder)
 
-빌드가 필요 없는 HTML 파일 하나입니다.
+## Run it yourself
+
+It is a single HTML file and needs no build.
 
 ```sh
 git clone https://github.com/tinkerer0/claude_coder.git
 cd claude_coder
-python3 -m http.server 8080   # http://localhost:8080 열기
+python3 -m http.server 8080   # open http://localhost:8080
 ```
 
-진행 상황은 이 브라우저(`localStorage`)에만 저장됩니다.
+Progress is saved only in this browser (`localStorage`).
 
 ## Feedback
 
-제가 이런 분야를 접한 지 얼마 안 돼서 부족한 점이 많습니다. 고칠 점이나 알려주실 내용이 있다면 issue나 PR로 남겨주시면 너무 감사하겠습니다.
-
-I am still new to this, so there is a lot to improve. Issues and pull requests with fixes or suggestions are very welcome.
+I am new to this field and there is a lot I still get wrong. If you see something to fix or something I should know, an issue or PR would be very much appreciated.
 
 ## License
 
-게임 코드는 [MIT](LICENSE)입니다. Clawd 캐릭터 디자인은 Anthropic의 것이라 이 라이선스에 포함되지 않습니다. 이 게임은 Anthropic과 관계없는 개인 팬 게임입니다.
+The game code is under the [MIT](LICENSE) license. The Clawd character design belongs to Anthropic and is not covered by this license. This game is a personal fan game and is not affiliated with Anthropic.
